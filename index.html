@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andy</title>
+
+    <!-- Fonts -->
+    <link href="/assets/fonts/ClashGrotesk-Variable.woff2" type="font/woff2" rel="preload" as="font" crossorigin>
+
+    <!-- CSS Swiper JS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header id="header">
+        <div class="container">
+            <nav class="nav">
+                <div class="nav__brand">
+                    <a href="#" class="nav__logo">
+                        <img src="assets/img/logo.svg" alt="Andy" width="35" height="35">
+                        Andy
+                    </a>
+                </div>
+
+                <div class="nav__menu" id="navMenu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">
+                                <span class="nav__link-text">Home</span>
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">
+                                <span class="nav__link-text">About</span>
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">
+                                <span class="nav__link-text">Program</span>
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">
+                                <span class="nav__link-text">Tutorial</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="nav__actions">
+                        <a href="#" class="btn btn--primary">
+                            <span class="btn__text">My Account</span>
+                        </a>
+                        <a href="#" class="btn btn--secondary">
+                            <span class="btn__text">Create Account</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="nav__hamburger" id="navToggle">
+                    <span class="nav__hamburger-line nav__hamburger-line--1"></span>
+                    <span class="nav__hamburger-line nav__hamburger-line--2"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <section class="home">
+            <div class="container">
+                <div class="home__content">
+                    <h1 class="home__title">Manage your daily task today with simple</h1>
+                    <p class="home__desc">
+                        Task-Andy is built for every member if your software team to plan, track, and release great
+                        software.
+                    </p>
+                    <div class="home__buttons">
+                        <a href="#" class="btn btn--primary home__buttons-app">
+                            <img src="assets/img/icons/app-store.svg" alt="icon app store" width="40" height="40">
+                            <div>
+                                <span>Available on the</span>
+                                <span class="home__buttons-text">App Store</span>
+                            </div>
+                        </a>
+                        <a href="#" class="btn btn--primary home__buttons-play">
+                            <img src="assets/img/icons/play-store.svg" alt="icon play store" width="40" height="40">
+                            <div>
+                                <span>Available on the</span>
+                                <span class="home__buttons-text">Google Play</span>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="home__images">
+                        <img src="assets/img/iphone-left.png" alt="mockup andy iphone" class="home__image home__image--left">
+                        <img src="assets/img/iphone-middle.png" alt="mockup andy iphone" class="home__image home__image--middle">
+                        <img src="assets/img/iphone-right.png" alt="mockup andy iphone" class="home__image home__image--right">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="business">
+            <div class="container">
+                <p class="business__desc">
+                    Thousands of teams around the world are building software with Shortcut.
+                </p>
+                <div class="business__images">
+                    <img src="assets/img/scale-icon.png" alt="icon scale" class="business__img">
+                    <img src="assets/img/fullstory-icon.png" alt="Fullstory icon" class="business__img">
+                    <img src="assets/img/maven-icon.png" alt="Maven icon" class="business__img">
+                    <img src="assets/img/makespace-icon.png" alt="Makespace icon" class="business__img">
+                    <img src="assets/img/glossier-icon.png" alt="Glossier icon" class="business__img">
+                    <img src="assets/img/cabify-icon.png" alt="Cabify icon" class="business__img">
+                </div>
+            </div>
+        </div>
+
+        <section class="about section">
+            <div class="container">
+                <div class="about__content">
+                    <div class="about__card">
+                        <div class="about__img">
+                            <img src="assets/img/iphone-projects.png" alt="view projects">
+                            <div class="about__background"></div>
+                        </div>
+
+                        <div class="about__desc">
+                            <h2 class="about__title">Customize your tasks for any project.</h2>
+                            <p class="about__text">
+                                Use over apps to customize your tasks for any of your work needs. Save time with task.
+                            </p>
+                            <div class="about__items">
+                                <div class="about__item">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M15.75 8C15.75 12.2802 12.2802 15.75 8 15.75C3.71978 15.75 0.25 12.2802 0.25 8C0.25 3.71978 3.71978 0.25 8 0.25C12.2802 0.25 15.75 3.71978 15.75 8ZM7.10356 12.1036L12.8536 6.35356C13.0488 6.15831 13.0488 5.84172 12.8536 5.64647L12.1465 4.93937C11.9512 4.74409 11.6346 4.74409 11.4393 4.93937L6.75 9.62869L4.56066 7.43934C4.36541 7.24409 4.04881 7.24409 3.85353 7.43934L3.14644 8.14644C2.95119 8.34169 2.95119 8.65828 3.14644 8.85353L6.39644 12.1035C6.59172 12.2988 6.90828 12.2988 7.10356 12.1036Z"
+                                            fill="#46AAF2" />
+                                    </svg>
+                                    <p>Checklists</p>
+                                </div>
+                                <div class="about__item">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M15.75 8C15.75 12.2802 12.2802 15.75 8 15.75C3.71978 15.75 0.25 12.2802 0.25 8C0.25 3.71978 3.71978 0.25 8 0.25C12.2802 0.25 15.75 3.71978 15.75 8ZM7.10356 12.1036L12.8536 6.35356C13.0488 6.15831 13.0488 5.84172 12.8536 5.64647L12.1465 4.93937C11.9512 4.74409 11.6346 4.74409 11.4393 4.93937L6.75 9.62869L4.56066 7.43934C4.36541 7.24409 4.04881 7.24409 3.85353 7.43934L3.14644 8.14644C2.95119 8.34169 2.95119 8.65828 3.14644 8.85353L6.39644 12.1035C6.59172 12.2988 6.90828 12.2988 7.10356 12.1036Z"
+                                            fill="#46AAF2" />
+                                    </svg>
+                                    <p>Priorities</p>
+                                </div>
+                                <div class="about__item">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M15.75 8C15.75 12.2802 12.2802 15.75 8 15.75C3.71978 15.75 0.25 12.2802 0.25 8C0.25 3.71978 3.71978 0.25 8 0.25C12.2802 0.25 15.75 3.71978 15.75 8ZM7.10356 12.1036L12.8536 6.35356C13.0488 6.15831 13.0488 5.84172 12.8536 5.64647L12.1465 4.93937C11.9512 4.74409 11.6346 4.74409 11.4393 4.93937L6.75 9.62869L4.56066 7.43934C4.36541 7.24409 4.04881 7.24409 3.85353 7.43934L3.14644 8.14644C2.95119 8.34169 2.95119 8.65828 3.14644 8.85353L6.39644 12.1035C6.59172 12.2988 6.90828 12.2988 7.10356 12.1036Z"
+                                            fill="#46AAF2" />
+                                    </svg>
+                                    <p>Task Dependencies</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about__card card--modifier">
+                        <div class="about__img">
+                            <img src="assets/img/iphone-tasks.png" alt="view tasks">
+                            <div class="about__background about__background--modifier"></div>
+                        </div>
+
+                        <div class="about__desc">
+                            <h2 class="about__title">Stay on track to hit project goals.</h2>
+                            <p class="about__text">
+                                Aydy offers a variety of project planning views: List, Calendar, Gantt Chart, Board and Box. These views make project planning simple.
+                            </p>
+                            <div class="about__items">
+                                <div class="about__item">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M15.75 8C15.75 12.2802 12.2802 15.75 8 15.75C3.71978 15.75 0.25 12.2802 0.25 8C0.25 3.71978 3.71978 0.25 8 0.25C12.2802 0.25 15.75 3.71978 15.75 8ZM7.10356 12.1036L12.8536 6.35356C13.0488 6.15831 13.0488 5.84172 12.8536 5.64647L12.1465 4.93937C11.9512 4.74409 11.6346 4.74409 11.4393 4.93937L6.75 9.62869L4.56066 7.43934C4.36541 7.24409 4.04881 7.24409 3.85353 7.43934L3.14644 8.14644C2.95119 8.34169 2.95119 8.65828 3.14644 8.85353L6.39644 12.1035C6.59172 12.2988 6.90828 12.2988 7.10356 12.1036Z"
+                                            fill="#F7B731" />
+                                    </svg>
+                                    <p>Custom Statuses</p>
+                                </div>
+                                <div class="about__item">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M15.75 8C15.75 12.2802 12.2802 15.75 8 15.75C3.71978 15.75 0.25 12.2802 0.25 8C0.25 3.71978 3.71978 0.25 8 0.25C12.2802 0.25 15.75 3.71978 15.75 8ZM7.10356 12.1036L12.8536 6.35356C13.0488 6.15831 13.0488 5.84172 12.8536 5.64647L12.1465 4.93937C11.9512 4.74409 11.6346 4.74409 11.4393 4.93937L6.75 9.62869L4.56066 7.43934C4.36541 7.24409 4.04881 7.24409 3.85353 7.43934L3.14644 8.14644C2.95119 8.34169 2.95119 8.65828 3.14644 8.85353L6.39644 12.1035C6.59172 12.2988 6.90828 12.2988 7.10356 12.1036Z"
+                                            fill="#F7B731" />
+                                    </svg>
+                                    <p>Task Templates</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="tutorial section">
+            <div class="container">
+                <div class="tutorial__content">
+                    <div class="tutorial__left">
+                        <h2 class="tutorial__title">How App Works?</h2>
+                        <div class="tutorial__items">
+                            <div class="tutorial__item">
+                                <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="28" cy="28" r="27.5" stroke="white" fill="none"/>
+                                    <path d="M31.216 36V18.58H27.68C26.848 20.14 25.834 20.738 24.196 20.738H23.416V23.52H27.342V36H31.216Z" fill="white"/>
+                                    </svg>                                    
+                                <div class="tutorial__desc">
+                                    <h3>Install the App</h3>
+                                    <p>Dolor sit amet, consectetur adipisicing elit.</p>
+                                </div>  
+                            </div>
+
+                            <div class="tutorial__item">
+                                <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="28" cy="28" r="27.5" stroke="white" fill="none" />
+                                    <path
+                                        d="M35.028 36V32.49H28.372L25.564 32.542C25.564 31.71 26.63 31.164 28.06 30.514L30.686 29.37C32.948 28.356 35.08 26.822 35.08 23.806C35.08 20.66 33.234 18.32 28.632 18.32C23.458 18.32 21.378 21.102 21.378 24.482V24.898H25.278V24.456C25.278 22.584 25.798 21.882 28.32 21.882C30.634 21.882 31.206 22.584 31.206 23.832C31.206 24.976 30.66 25.548 29.126 26.276L26.11 27.706C23.692 28.876 21.404 30.28 21.404 33.66V36H35.028Z"
+                                        fill="white" />
+                                </svg>
+                                    
+                                <div class="tutorial__desc">
+                                    <h3>Setup your profile</h3>
+                                    <p>Dolor sit amet, consectetur adipisicing elit.</p>
+                                </div>  
+                            </div>
+
+                            <div class="tutorial__item">
+                                <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="28" cy="28" r="27.5" stroke="white" fill="none" />
+                                    <path
+                                        d="M28.138 36.26C32.532 36.26 35.314 34.596 35.314 31.216C35.314 28.642 33.806 27.134 31.31 26.9V26.744C33.598 26.484 34.586 25.08 34.586 23.026C34.586 19.906 32.09 18.32 27.982 18.32C23.51 18.32 20.936 20.452 20.936 23.91V24.196H24.758V23.962C24.758 22.376 25.564 21.908 27.878 21.908C29.698 21.908 30.686 22.376 30.686 23.754C30.686 25.158 30.088 25.47 28.528 25.47H25.278V28.642H28.944C30.634 28.642 31.362 28.98 31.362 30.696C31.362 32.308 30.27 32.672 28.138 32.672C25.356 32.672 24.758 32.204 24.758 30.618V30.098H20.936V30.67C20.936 34.128 22.886 36.26 28.138 36.26Z"
+                                        fill="white" />
+                                </svg>
+                                    
+                                <div class="tutorial__desc">
+                                    <h3>Enjoy the features!</h3>
+                                    <p>Lorem ipsum dolor sit amet, conset adipisicing elit.</p>
+                                </div>  
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tutorial__right">
+                        <svg width="67" height="67" viewBox="0 0 67 67" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g filter="url(#filter0_b_0_1)">
+                                <path
+                                    d="M33.0235 0.991089C26.4967 0.991089 20.1164 2.9265 14.6896 6.55259C9.2628 10.1787 5.03311 15.3326 2.53542 21.3625C0.0377326 27.3925 -0.615772 34.0277 0.657539 40.4291C1.93085 46.8304 5.07379 52.7105 9.68892 57.3256C14.304 61.9407 20.1841 65.0837 26.5855 66.357C32.9868 67.6303 39.6221 66.9768 45.652 64.4791C51.682 61.9814 56.8359 57.7517 60.4619 52.3249C64.088 46.8981 66.0234 40.5179 66.0234 33.9911C66.0067 25.2441 62.5245 16.8602 56.3394 10.6751C50.1544 4.49002 41.7704 1.00786 33.0235 0.991089Z"
+                                    fill="black" fill-opacity="0.65" />
+                            </g>
+                            <g filter="url(#filter1_d_0_1)">
+                                <path
+                                    d="M44.6829 36.1372L29.3079 46.3872C28.8838 46.6496 28.3971 46.7934 27.8985 46.8036C27.4759 46.8033 27.0592 46.7046 26.6813 46.5153C26.2716 46.2942 25.93 45.9657 25.6929 45.565C25.4559 45.1643 25.3325 44.7066 25.336 44.2411V23.7411C25.3325 23.2756 25.4559 22.8179 25.6929 22.4172C25.93 22.0165 26.2716 21.688 26.6813 21.4669C27.0927 21.2587 27.5511 21.161 28.0116 21.1835C28.472 21.2059 28.9188 21.3477 29.3079 21.595L44.6829 31.845C45.0398 32.0779 45.333 32.3961 45.5359 32.7708C45.7389 33.1455 45.8451 33.5649 45.8451 33.9911C45.8451 34.4172 45.7389 34.8367 45.5359 35.2114C45.333 35.5861 45.0398 35.9043 44.6829 36.1372Z"
+                                    fill="white" />
+                            </g>
+                            <defs>
+                                <filter id="filter0_b_0_1" x="-2.97656" y="-2.00891" width="72" height="72" filterUnits="userSpaceOnUse"
+                                    color-interpolation-filters="sRGB">
+                                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                    <feGaussianBlur in="BackgroundImage" stdDeviation="1.5" />
+                                    <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_0_1" />
+                                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_0_1" result="shape" />
+                                </filter>
+                                <filter id="filter1_d_0_1" x="9.33594" y="8.1803" width="52.5078" height="57.6233" filterUnits="userSpaceOnUse"
+                                    color-interpolation-filters="sRGB">
+                                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                                        result="hardAlpha" />
+                                    <feOffset dy="3" />
+                                    <feGaussianBlur stdDeviation="8" />
+                                    <feComposite in2="hardAlpha" operator="out" />
+                                    <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_1" />
+                                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_1" result="shape" />
+                                </filter>
+                            </defs>
+                        </svg>
+                            
+                        <img src="assets/img/iphone-video.png" alt="image app video">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="features section">
+            <div class="container">
+                <div class="features__content">
+                    <div class="features__card card-1">
+                        <div class="features__desc">
+                            <h2 class="features__title"><span class="yellow">See your work,</span> your way.</h2>
+                            <p>You can manage tasks on a List, set up a workflow on a Board, and turn due dates into reminders on a calendar.</p>
+                        </div>
+                        <div class="features__img">
+                            <img src="assets/img/iphone-desktop.png" alt="image features desktop">
+                        </div>
+                    </div>
+
+                    <div class="features__card card-2">
+                        <div class="features__img">
+                            <img src="assets/img/iphone-projects-2.png" alt="image features projects">
+                        </div>
+                        <div class="features__desc">
+                            <h2 class="features__title">Simplify your work on <span class="green">your project.</span></h2>
+                            <p>Take control of your team's workload with project management that is flexible and easy to use.</p>
+                        </div>
+                    </div>
+
+                    <div class="features__card card-3">
+                        <div class="features__desc">
+                            <h2 class="features__title">Connect with your friends <span class="blue">in Chat.</span></h2>
+                            <p>Collaborate effectively with real-time chat. Tag teammates, assign comments for action items, and link tasks to get more done together.</p>
+                        </div>
+                        <div class="features__img">
+                            <img src="assets/img/iphone-chats.png" alt="image features chat">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials section">
+            <div class="container">
+                <div class="testimonials__header">
+                    <h2 class="testimonials__title">Trusted by millions<br>of customers.</h2>
+                    <div class="testimonials__image">
+                        <img src="assets/img/trustpilot.png" alt="trustpilot logo">
+                        <p>4.5/5 (25 avis)</p>
+                    </div>
+                </div>
+                </div>
+                
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <div class="testimonials__card">
+                                <div class="testimonials__content">
+                                    <div class="testimonials__desc">
+                                        <p>
+                                            ”Andy has become such an integral part of our work! By setting up weekly Sprints to discuss
+                                            and organize our work, we can easily collaborate with other departments without spending
+                                            hours at a time in meetings.”
+                                        </p>
+                                    </div>
+                                    <div class="testimonial__footer">
+                                        <img src="assets/img/user-3.png" alt="image user Sagor Ahmad">
+                                        <div class="testimonials__user">
+                                            <p class="testimonials__name">Sagor Ahmad</p>
+                                            <p>Inbound Marketing Team.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="testimonials__card">
+                                <div class="testimonials__content">
+                                    <div class="testimonials__desc">
+                                        <p>
+                                            ”The Andy project management software allows me to have greater connection with different
+                                            departments. For example, I can interact with engineers directly and establish working
+                                            relationships—and that collaboration has been extremely valuable.”
+                                        </p>
+                                    </div>
+                                    <div class="testimonial__footer">
+                                        <img src="assets/img/user-4.png" alt="image user Kyler Ros">
+                                        <div class="testimonials__user">
+                                            <p class="testimonials__name">Kyler Rose</p>
+                                            <p>Marketing Services Manager</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="testimonials__card">
+                                <div class="testimonials__content">
+                                    <div class="testimonials__desc">
+                                        <p>
+                                            "In government we have no shortage of challenges, but there are a lot of things we can
+                                            control. There are processes that we can improve upon and refine. Tools like Andy are what
+                                            allow us to do better. We have a lot of challenges here at the White House. But there are
+                                            things we can do to get stuff done. Tools like Andy help us work together better."
+                                        </p>
+                                    </div>
+                                    <div class="testimonial__footer">
+                                        <img src="assets/img/user-3.png" alt="image user Mayor Jorge Elorza">
+                                        <div class="testimonials__user">
+                                            <p class="testimonials__name">Mayor Jorge Elorza</p>
+                                            <p>City of Providence</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="testimonials__card">
+                                <div class="testimonials__content">
+                                    <div class="testimonials__desc">
+                                        <p>
+                                            "New employees can look at the Creative Requests board, and immediately understand what the
+                                            entire marketing
+                                            team is
+                                            working on without having to ask.
+                                            The Creative Requests board keeps new employees in the loop about all of the company's
+                                            marketing campaigns.
+                                            The Creative
+                                            Requests board
+                                        </p>
+                                    </div>
+                                    <div class="testimonial__footer">
+                                        <img src="assets/img/user-4.png" alt="image user Serge Vatine">
+                                        <div class="testimonials__user">
+                                            <p class="testimonials__name">Serge Vatine</p>
+                                            <p>CEO, Bold Avocats</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <!-- If we need navigation buttons -->
+                <div class="navigation">
+                    <div class="swiper-button-prev">
+                        <ion-icon name="arrow-back-outline"></ion-icon>
+                    </div>
+                    <div class="swiper-button-next">
+                        <ion-icon name="arrow-forward-outline"></ion-icon>
+                    </div>
+                </div>
+        </section>
+
+        <section class="pricing section">
+            <div class="container">
+                <div class="pricing__header">
+                    <h2>Pricing</h2>
+                    <div class="pricing__buttons">
+                        <button class="pricing__button active">Bill yearly <span>-40%</span></button>
+                        <button class="pricing__button">Bill monthly</button>
+                    </div>
+                </div>
+
+                <div class="pricing__content">
+
+                    <div class="pricing__card">
+                        <div class="pricing__text">
+                            <h3>Free</h3>
+                            <p>Core task management features for single users</p>
+                        </div>
+                        
+                        <div class="pricing__items">
+                            <div class="pricing__item">
+                                <ion-icon name="checkmark-outline" class="blue"></ion-icon>
+                                <p>Unlimited Viewers</p>
+                            </div>
+                            <div class="pricing__item">
+                                <ion-icon name="checkmark-outline" class="blue"></ion-icon>
+                                <p>Up to 2 editors</p>
+                            </div>
+                            <div class="pricing__item">
+                                <ion-icon name="checkmark-outline" class="blue"></ion-icon>
+                                <p>Up to 3 projects</p>
+                            </div>
+                            <div class="pricing__item">
+                                <ion-icon name="checkmark-outline" class="blue"></ion-icon>
+                                <p>Mobile apps</p>
+                            </div>
+                        </div>
+
+                        <div class="pricing__footer">
+                            <p class="pricing__value blue">$0</p>
+                            <p class="pricing__desc">*Billed annually, plus application texes</p>
+                            <button class="btn blue">Choose Plan</button>
+                        </div>
+                    </div>
+
+                    <div class="pricing__card">
+                        <div class="pricing__text">
+                            <h3>Unlimited</h3>
+                            <p>Simple, collaborative task management for teams</p>
+                        </div>
+                        
+                        <div class="pricing__items">
+                            <div class="pricing__item">
+                                <ion-icon name="checkmark-outline" class="orange"></ion-icon>
+                                <p>Unlimited Viewers</p>
+                            </div>
+                            <div class="pricing__item">
+                                <ion-icon name="checkmark-outline" class="orange"></ion-icon>
+                                <p>Up to 10 editors</p>
+                            </div>
+                            <div class="pricing__item">
+                                <ion-icon name="checkmark-outline" class="orange"></ion-icon>
+                                <p>Unlimited projects</p>
+                            </div>
+                            <div class="pricing__item">
+                                <ion-icon name="checkmark-outline" class="orange"></ion-icon>
+                                <p>Automations</p>
+                            </div>
+                            <div class="pricing__item">
+                                <ion-icon name="checkmark-outline" class="orange"></ion-icon>
+                                <p>Admin account</p>
+                            </div>
+                            <div class="pricing__item">
+                                <ion-icon name="checkmark-outline" class="orange"></ion-icon>
+                                <p>Unlimited integrations</p>
+                            </div>
+                        </div>
+
+                        <div class="pricing__footer">
+                            <p class="pricing__value orange">$5</p>
+                            <p class="pricing__desc">*Billed annually, plus application texes</p>
+                            <button class="btn orange">Choose Plan</button>
+                        </div>
+                    </div>
+
+                    <div class="pricing__card">
+                        <div class="pricing__text">
+                            <h3>Business</h3>
+                            <p>Extended collaboration features for larger teams</p>
+                        </div>
+                        
+                        <div class="pricing__items">
+                            <div class="pricing__item">
+                                <ion-icon name="checkmark-outline" class="pink"></ion-icon>
+                                <p>Unlimited Viewers</p>
+                            </div>
+                            <div class="pricing__item">
+                                <ion-icon name="checkmark-outline" class="pink"></ion-icon>
+                                <p>Unlimited editors</p>
+                            </div>
+                            <div class="pricing__item">
+                                <ion-icon name="checkmark-outline" class="pink"></ion-icon>
+                                <p>Unlimited projects</p>
+                            </div>
+                            <div class="pricing__item">
+                                <ion-icon name="checkmark-outline" class="pink"></ion-icon>
+                                <p>Activity exports</p>
+                            </div>
+                            <div class="pricing__item">
+                                <ion-icon name="checkmark-outline" class="pink"></ion-icon>
+                                <p>Group sharing</p>
+                            </div>
+                            <div class="pricing__item">
+                                <ion-icon name="checkmark-outline" class="pink"></ion-icon>
+                                <p>Activity exports</p>
+                            </div>
+                            <div class="pricing__item">
+                                <ion-icon name="checkmark-outline" class="pink"></ion-icon>
+                                <p>Multiple team members</p>
+                            </div>
+                            <div class="pricing__item">
+                                <ion-icon name="checkmark-outline" class="pink"></ion-icon>
+                                <p>Admin account</p>
+                            </div>
+                            <div class="pricing__item">
+                                <ion-icon name="checkmark-outline" class="pink"></ion-icon>
+                                <p>Unlimited integrations</p>
+                            </div>
+                        </div>
+
+                        <div class="pricing__footer">
+                            <p class="pricing__value pink">$12</p>
+                            <p class="pricing__desc">*Billed annually, plus application texes</p>
+                            <button class="btn pink">Choose Plan</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="download section">
+            <div class="container">
+                <div class="download__content">
+                    <svg width="190" height="107" viewBox="0 0 190 107" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M95.4087 0.185561C95.182 0.276768 94.7822 0.764176 94.5205 1.26905C93.9287 2.41075 93.7958 15.2454 94.3059 21.9623C94.4884 24.3638 94.5961 29.4271 94.5455 33.2138L94.4531 40.0992L95.2618 40.7335C96.6198 41.7988 98.5878 41.326 99.1893 39.7897C99.6044 38.7298 99.4108 22.0975 98.9328 17.7578C98.747 16.0678 98.5907 11.6149 98.5859 7.86246C98.5781 1.6701 98.5223 0.990251 97.984 0.504462C97.4107 -0.0130238 96.2589 -0.155656 95.4087 0.185561ZM161.768 20.9112C160.309 22.5102 156.066 27.9276 155.658 28.7116C155.167 29.657 152.486 33.1944 152.065 33.4541C151.776 33.6323 148.926 37.2278 146.717 40.2014C145.428 41.9357 143.736 44.9652 143.615 45.7566C143.315 47.7072 144.91 49.1737 146.625 48.5236C147.393 48.2325 150.784 43.741 150.784 43.0159C150.784 42.8429 151.361 42.001 152.067 41.1452C152.772 40.2894 153.952 38.8615 154.688 37.972C156.714 35.5234 159.539 31.5507 159.539 31.1496C159.539 30.954 159.795 30.4905 160.107 30.1195C160.419 29.7489 161.227 28.7886 161.903 27.9862C163.69 25.8626 165.7 22.7735 165.7 22.1493C165.7 21.3536 164.225 20.0218 163.344 20.0218C162.922 20.0218 162.215 20.4212 161.768 20.9112ZM36.4878 22.725C35.5565 23.4045 35.7676 24.8363 37.0832 26.7652C37.7323 27.7171 38.2635 28.6402 38.2635 28.8164C38.2635 28.993 38.5663 29.5241 38.9363 29.9969C39.3063 30.4698 40.3926 32.0937 41.3499 33.6058C42.3071 35.1178 43.4433 36.7915 43.8752 37.3252C44.3068 37.8588 45.1418 39.1687 45.7304 40.236C46.3192 41.3034 47.0621 42.4703 47.3815 42.829C47.7009 43.1876 48.3443 44.1974 48.8109 45.0732C49.7276 46.7926 52.3493 49.817 53.9402 50.99C55.2379 51.9467 56.8706 51.9509 57.5389 50.9988C58.6485 49.4188 57.9812 47.7577 55.3186 45.4743C54.1292 44.4545 53.2748 43.3824 52.8308 42.3529C52.4589 41.4903 51.8016 40.454 51.37 40.0497C50.9388 39.6455 50.5856 39.1577 50.5856 38.9659C50.5856 38.7741 49.8194 37.5652 48.8832 36.2799C47.9471 34.9946 46.889 33.509 46.5323 32.9789C46.1756 32.4488 45.314 31.1723 44.6175 30.1422C43.921 29.112 42.5555 27.0651 41.583 25.5935C40.6105 24.1222 39.5482 22.7757 39.2227 22.6017C38.387 22.1557 37.195 22.2094 36.4878 22.725ZM91.119 50.9338C85.7118 51.3956 82.7775 51.8643 79.3484 52.8142C78.3143 53.1004 77.0717 53.3349 76.5873 53.3349C76.1032 53.3349 75.1508 53.6321 74.4711 53.9953C73.7918 54.3585 72.4078 54.9608 71.3954 55.3334C69.0805 56.1859 67.4877 57.0773 63.3141 59.8555C61.4865 61.0719 59.9148 62.0675 59.8214 62.0675C59.4216 62.0675 55.0589 65.6362 52.3341 68.1916C50.7095 69.7153 48.9585 71.335 48.4429 71.7907C47.0096 73.0579 44.3574 76.4681 43.4518 78.2082C43.0059 79.0646 42.2802 80.4046 41.8389 81.1853C41.3979 81.9664 40.8615 83.2601 40.6468 84.0606C40.4325 84.8611 39.7992 86.7531 39.2392 88.2652C38.03 91.5308 37.708 92.8009 37.2699 96.0275C37.089 97.3616 36.8108 99.112 36.6519 99.917C36.2692 101.854 36.7443 105.596 37.4745 106.401C38.1883 107.188 39.5936 107.201 40.5483 106.43C41.0966 105.987 41.2617 105.556 41.1975 104.732C40.9731 101.861 41.1368 99.4354 41.7416 96.6743C41.9948 95.5181 42.3126 94.0626 42.4481 93.44C42.5834 92.8174 43.3567 90.6343 44.1668 88.5886C44.9765 86.5429 45.7479 84.5053 45.8808 84.0606C46.0138 83.6159 46.3098 83.0337 46.5384 82.7669C46.7671 82.5001 47.1854 81.7235 47.4678 81.0414C48.0651 79.5986 50.6722 76.3921 52.4573 74.9043C53.1379 74.3371 54.7829 72.8037 56.1128 71.497C58.678 68.9765 62.0228 66.3393 65.4954 64.1002C68.2351 62.3336 76.5912 58.1863 77.4109 58.1863C77.7595 58.1863 79.1989 57.8787 80.6095 57.5026C83.4099 56.7561 86.5815 56.2089 86.9155 56.4149C87.0316 56.4864 87.6882 56.3903 88.3747 56.2011C89.8018 55.8082 90.7905 55.7221 97.2282 55.4307C102.07 55.2114 105.107 55.6228 107.485 56.8211C108.014 57.088 109.255 57.4916 110.241 57.7183C113.028 58.3587 114.09 58.7012 117.136 59.9429C118.693 60.5778 120.196 61.0972 120.475 61.0972C120.755 61.0972 121.378 61.2967 121.859 61.5403C122.341 61.7841 123.427 62.084 124.274 62.2069C125.12 62.3294 126.214 62.7544 126.706 63.1506C127.197 63.5468 127.964 64.1241 128.41 64.4337C128.856 64.7432 130.169 65.653 131.328 66.4554C132.487 67.2578 134.103 68.4545 134.918 69.1146C135.734 69.7748 137.193 70.9482 138.161 71.7218C145.475 77.5678 144.824 76.8349 150.261 85.3543C150.886 86.3327 151.496 87.4243 151.618 87.78C151.74 88.1358 152.167 89.1546 152.569 90.044C154.052 93.331 154.652 95.5818 154.853 98.6149C154.965 100.305 155.205 102.174 155.387 102.769C155.803 104.128 157.255 104.844 158.627 104.367C159.998 103.89 160.157 102.777 159.705 96.8386C159.499 94.1441 159.25 92.919 158.676 91.7786C158.259 90.9506 157.918 90.1013 157.918 89.8904C157.918 89.2448 155.189 83.9956 153.962 82.2817C153.326 81.3923 152.331 79.7186 151.752 78.5623C150.951 76.9626 149.846 75.6291 147.128 72.9832C145.164 71.0711 143.436 69.5063 143.287 69.5063C143.139 69.5063 142.03 68.6651 140.821 67.6369C139.613 66.6087 138.242 65.4809 137.776 65.1303C137.31 64.7801 135.705 63.5588 134.209 62.4171C131.461 60.3184 126.559 57.5395 125.606 57.5395C124.775 57.5395 118.02 55.259 116.285 54.3932C115.413 53.9575 113.746 53.4533 112.582 53.2725C111.417 53.0917 109.931 52.666 109.278 52.3268C105.838 50.5385 100.523 50.131 91.119 50.9338ZM186.056 61.3074C184.099 63.4831 183.007 64.3476 179.174 66.7572C178.608 67.1129 177.351 68.0874 176.381 68.9229C174.265 70.7454 170.88 73.0621 170.332 73.0634C169.869 73.064 165.906 76.9274 165.399 77.8718C164.866 78.866 164.978 79.4886 165.848 80.3557C167.152 81.6569 168.168 81.4101 170.564 79.2092C171.724 78.1444 172.841 77.2722 173.047 77.2709C173.253 77.2696 174.005 76.7958 174.72 76.2175C175.434 75.6392 176.851 74.5114 177.87 73.7109C178.889 72.9104 179.956 72.0006 180.242 71.6895C180.527 71.378 180.962 71.1235 181.207 71.1235C181.453 71.1235 182.04 70.7153 182.513 70.2166C182.986 69.7178 184.199 68.7663 185.209 68.102C186.959 66.9503 188.838 64.9858 189.646 63.4634C190.197 62.4229 190.104 61.5037 189.372 60.7738C188.376 59.7802 187.269 59.9584 186.056 61.3074ZM0.567467 67.5916C0.189372 67.8112 0 68.3193 0 69.114C0 70.1684 0.264601 70.5604 2.28219 72.4945C3.53743 73.698 4.95998 74.9338 5.44379 75.2414C5.9276 75.5489 7.80089 76.9196 9.60705 78.2877C11.4132 79.6558 13.6176 81.1423 14.5058 81.5912C15.3942 82.0405 16.5431 82.7559 17.0587 83.1818C18.4203 84.3058 22.4886 86.648 23.079 86.648C23.3569 86.648 23.9685 86.3463 24.4384 85.9776C25.6404 85.0348 25.5902 83.6269 24.3122 82.436C23.1828 81.3839 18.9622 78.5723 15.8891 76.8255C14.7298 76.1664 12.9788 75.0373 11.9979 74.3164C11.017 73.5951 9.62813 72.6183 8.91118 72.1452C8.19455 71.6723 7.31903 71.028 6.96558 70.714C3.01374 67.1993 2.05131 66.7297 0.567467 67.5916Z"
+                            fill="black" />
+                    </svg>
+                     
+                    <h2 class="download__title">Download Andy to get started</h2>
+
+                    <p class="download__desc">Available on Android and iOS.</p>
+
+                    <div class="home__buttons">
+                        <a href="#" class="btn btn--primary home__buttons-app">
+                            <img src="assets/img/icons/app-store.svg" alt="icon app store" width="40" height="40">
+                            <div>
+                                <span>Available on the</span>
+                                <span class="home__buttons-text">App Store</span>
+                            </div>
+                        </a>
+                        <a href="#" class="btn btn--primary home__buttons-play">
+                            <img src="assets/img/icons/play-store.svg" alt="icon play store" width="40" height="40">
+                            <div>
+                                <span>Available on the</span>
+                                <span class="home__buttons-text">Google Play</span>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="download__arrows">
+                        <svg width="47" height="43" viewBox="0 0 47 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path opacity="0.7" fill-rule="evenodd" clip-rule="evenodd"
+                                d="M14.4516 10.5163C14.3388 11.0387 14.4053 11.1608 15.5581 12.5479C17.0494 14.3419 18.7467 15.652 22.9247 18.2338C24.5316 19.2266 25.8555 20.114 25.8669 20.206C25.8785 20.2979 25.6904 20.534 25.4491 20.7306C24.6085 21.4157 21.6282 24.819 19.9966 26.957C15.2169 33.2199 4.15731 38.8396 0.68216 40.5037C0.101042 40.782 -0.143054 41.4821 0.144543 42.0587C0.409561 42.59 1.03713 42.8243 1.57748 42.5782C4.86829 41.08 15.8668 35.637 23.1369 26.808C24.3439 25.3423 27.3802 22.0303 27.9215 21.5891C27.9806 21.541 28.5511 21.8574 29.1889 22.2922C33.3572 25.1342 42.0528 30.8922 42.8101 31.3118C43.412 31.6454 44.0509 31.4451 44.4538 30.7962C44.6207 30.5277 44.899 29.0495 45.0727 27.5112C45.542 23.3542 46.1987 9.07873 46.0587 6.07649C45.8001 0.525981 45.7736 0.371094 45.0463 0.145414C44.757 0.0557764 43.5308 0.235908 42.1347 0.573222C40.5189 0.963693 39.5546 1.0927 39.2124 0.964049C38.6448 0.750645 38.261 0.857334 29.5242 3.65633C18.7324 7.11368 14.7996 8.90344 14.4516 10.5163ZM37.306 3.74094C35.1662 4.19877 23.1553 8.22198 19.9133 9.56684C17.3045 10.649 17.1263 10.78 17.5547 11.3006C18.3096 12.2177 20.9174 14.1065 25.1913 16.8315C27.6993 18.4305 31.3714 20.8428 33.3517 22.1921C38.0573 25.3983 37.9904 25.3558 38.1365 25.2367C38.2057 25.1804 38.2445 23.6672 38.2224 21.8742C38.2006 20.0812 38.1863 17.2642 38.1908 15.6142C38.2032 10.9975 38.1394 8.43004 37.9503 5.93002C37.7784 3.65647 37.7737 3.64089 37.306 3.74094ZM43.5467 3.47521C43.477 2.76153 43.4751 2.76016 42.7647 2.91317C41.9856 3.08089 41.9124 3.14825 42.2565 3.381C42.4111 3.48557 42.7256 3.71392 42.9556 3.88871C43.4721 4.28122 43.6158 4.1806 43.5467 3.47521ZM43.5115 7.41326C43.4251 7.30457 42.721 6.73506 41.9468 6.14762C41.1727 5.56018 40.4875 5.12203 40.4238 5.17397C40.3602 5.22579 40.3573 5.80355 40.4173 6.45817C40.513 7.5027 40.5853 7.68159 41.0078 7.923C41.2723 8.07426 41.9188 8.64212 42.4444 9.18481C42.9699 9.72749 43.4498 10.1309 43.5108 10.0812C43.6857 9.93867 43.6863 7.6331 43.5115 7.41326ZM43.4774 14.625C43.5276 14.273 43.5419 13.8409 43.5093 13.6649C43.4753 13.4807 42.827 12.7952 41.9855 12.0532C40.5259 10.7663 40.521 10.7638 40.5774 11.3393C40.6512 12.0935 41.3073 13.4028 41.8622 13.9032C42.1036 14.1211 42.5455 14.5167 42.8437 14.7823L43.3861 15.265L43.4774 14.625ZM43.257 19.0899C43.301 18.523 43.2648 18.4708 42.0891 17.401C41.4217 16.7939 40.8164 16.2915 40.7438 16.2846C40.6714 16.2776 40.5992 16.4892 40.5837 16.7547C40.5596 17.1685 40.7092 17.3961 41.6353 18.3535C42.9999 19.764 43.198 19.854 43.257 19.0899ZM42.6254 22.6556C42.3636 22.5275 41.8614 22.0698 41.5097 21.6383C40.813 20.7834 40.4836 20.7816 40.7205 21.6342C40.8659 22.1572 42.5143 24.2399 42.8048 24.2675C42.8849 24.275 42.9845 23.9678 43.0261 23.5847C43.0932 22.9675 43.0475 22.8616 42.6254 22.6556ZM42.6508 28.0056C42.6603 27.7674 42.3517 27.3027 41.7035 26.58C41.1747 25.9904 40.6929 25.5479 40.6329 25.5967C40.5731 25.6454 40.5036 25.9517 40.4783 26.2771C40.434 26.852 40.4575 26.8859 41.2965 27.466L41.4741 27.5889C42.2789 28.146 42.5271 28.3178 42.6074 28.2591C42.6431 28.2329 42.6455 28.161 42.649 28.0569L42.6508 28.0056Z"
+                                fill="white" />
+                        </svg>
+                        
+                        <svg width="36" height="62" viewBox="0 0 36 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path opacity="0.7" fill-rule="evenodd" clip-rule="evenodd"
+                                d="M33.8569 27.0376C35.577 26.5487 35.6998 26.4858 35.9005 25.991C36.5203 24.4637 34.3087 20.7548 27.4245 11.776C21.8512 4.50696 21.5972 4.20099 21.0135 4.05461C20.6616 3.96635 19.9457 3.31243 18.8436 2.07289C17.8913 1.00198 16.9899 0.157176 16.7031 0.0667798C15.982 -0.160189 15.8735 -0.0475451 12.5499 4.38163C10.7522 6.77735 3.28501 18.9195 1.33788 22.6133C0.617356 23.9801 0.0160913 25.3569 0.0020205 25.673C-0.0324962 26.4368 0.377515 26.9647 1.05669 27.0315C1.91109 27.1156 12.2485 27.3065 17.2496 27.3306C18.0149 27.3343 18.6587 27.3974 18.68 27.4706C18.8752 28.1418 19.5005 32.5966 19.6655 34.4904C20.7859 47.3588 17.7028 56.3529 11.094 59.6693C10.514 59.9603 10.2079 60.638 10.4384 61.2477C10.6675 61.8537 11.3407 62.1679 11.931 61.9084C13.3234 61.2963 14.3564 60.5939 15.5198 59.5037C20.4831 54.8517 22.6903 47.1586 22.1492 36.3965C22.014 33.7073 21.4857 29.209 21.1826 28.1669C21.0956 27.8678 21.0743 27.5663 21.1352 27.4971C21.1961 27.4277 22.776 27.4479 24.6463 27.542C29.5096 27.7861 31.6318 27.6698 33.8569 27.0376ZM31.9678 22.1067C30.0714 19.1569 22.5078 9.01923 21.0151 7.42663C20.6889 7.07855 20.6763 7.08873 19.261 8.86549C17.7046 10.8192 16.213 12.8997 13.6345 16.713C12.7131 18.0758 11.122 20.3902 10.0988 21.856C9.07546 23.3217 8.25878 24.5913 8.2837 24.677C8.28806 24.6919 8.29152 24.7056 8.29738 24.7182C8.36244 24.8579 8.72394 24.8575 13.9025 24.8841C16.278 24.8961 20.6326 24.9927 23.5796 25.0987C28.6015 25.2791 31.7925 25.2028 32.9239 24.8755C33.566 24.6896 33.4938 24.4803 31.9678 22.1067ZM17.0166 3.64431C16.5216 3.11471 16.5193 3.1148 16.0621 3.66357C15.6101 4.20585 15.6712 4.37042 16.3135 4.34013C16.5996 4.32669 16.9847 4.317 17.1697 4.31862C17.5815 4.3221 17.5594 4.22498 17.0166 3.64431ZM15.8717 6.77534C14.9094 6.82005 14.0144 6.88969 13.8828 6.93024C13.6167 7.01221 12.3245 8.9134 12.3876 9.1302C12.4096 9.20577 13.0281 9.14578 13.762 8.9968C14.4959 8.84782 15.3429 8.74682 15.644 8.77234C16.1247 8.8132 16.2841 8.70676 16.948 7.89997C17.3641 7.39436 17.6857 6.9164 17.6628 6.83756C17.6398 6.75856 16.8339 6.73066 15.8717 6.77534ZM10.3794 12.0855C10.2541 12.2122 10.0235 12.5766 9.86721 12.8953L9.583 13.4747L10.2971 13.3848C10.6898 13.3352 11.2728 13.26 11.5924 13.2174C12.3266 13.12 13.5971 12.4132 14.0803 11.8332C14.4491 11.3908 14.4437 11.39 12.5289 11.6222C11.4248 11.756 10.5105 11.9531 10.3794 12.0855ZM9.44569 15.9723C7.88471 16.1866 7.82588 16.2091 7.54395 16.7015C7.16379 17.3649 7.37619 17.4032 9.28267 17.0152C10.5766 16.7519 10.8265 16.6492 11.0388 16.2943C11.175 16.0667 11.2347 15.8513 11.1715 15.8159C11.1082 15.7803 10.3317 15.8508 9.44569 15.9723ZM7.54364 19.7947C7.01419 19.9507 6.34696 20.0429 6.06108 19.9998C5.60049 19.93 5.50371 19.9913 5.21254 20.5383C5.0318 20.8778 4.94097 21.1876 5.01067 21.2269C5.26363 21.3691 7.77899 20.5881 8.19111 20.2395C8.86285 19.6711 8.59249 19.4856 7.54364 19.7947ZM4.61443 23.7588C3.67934 23.9865 3.16651 24.1944 3.04061 24.3962L3.01335 24.4396C2.95783 24.5273 2.91944 24.588 2.93403 24.6298C2.96674 24.7238 3.26585 24.7231 4.23579 24.7209L4.45036 24.7204C5.4615 24.7186 5.49981 24.704 5.78592 24.2049C5.94771 23.9222 6.06252 23.6302 6.04097 23.5561C6.01935 23.4818 5.37732 23.5731 4.61443 23.7588Z"
+                                fill="white" />
+                        </svg>
+                        
+                        <svg width="43" height="43" viewBox="0 0 43 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path opacity="0.7" fill-rule="evenodd" clip-rule="evenodd"
+                                d="M32.5689 10.5165C32.6817 11.0389 32.6152 11.161 31.4624 12.5481C29.9711 14.3421 28.2738 15.6522 24.0958 18.234C22.4889 19.2268 21.165 20.1142 21.1536 20.2062C21.1421 20.2981 21.3302 20.5342 21.5714 20.7308C22.412 21.4159 25.3923 24.8192 27.0239 26.9572C31.9359 33.3935 39.5474 39.1499 41.5777 40.6323C41.9007 40.8681 42.09 41.239 42.0904 41.6389C42.0912 42.633 40.991 43.1996 40.2049 42.5912C36.9898 40.1026 30.1853 34.4612 23.8836 26.8082C22.6766 25.3425 19.6404 22.0305 19.099 21.5893C19.0399 21.5412 18.4695 21.8576 17.8316 22.2924C13.6634 25.1344 4.96772 30.8923 4.21044 31.312C3.60847 31.6456 2.96958 31.4453 2.56674 30.7964C2.39986 30.5279 2.12149 29.0497 1.94784 27.5114C1.47854 23.3544 0.821827 9.07892 0.961759 6.07668C1.22041 0.526168 1.2469 0.371279 1.97424 0.145599C2.26354 0.0559613 3.4897 0.236095 4.88579 0.57341C6.50166 0.963881 7.46588 1.09289 7.80809 0.964236C8.37567 0.750833 8.75955 0.857521 17.4963 3.65652C28.2881 7.11387 32.2209 8.90364 32.5689 10.5165ZM9.71454 3.74113C11.8543 4.19896 23.8652 8.22217 27.1072 9.56703C29.7161 10.6492 29.8942 10.7802 29.4658 11.3008C28.7109 12.2178 26.1031 14.1067 21.8292 16.8317C19.3212 18.4307 15.6491 20.8429 13.6688 22.1923C8.96322 25.3985 9.0301 25.356 8.88397 25.2369C8.81485 25.1806 8.77605 23.6674 8.79813 21.8744C8.81994 20.0814 8.83421 17.2644 8.82971 15.6144C8.81735 10.9977 8.88108 8.43023 9.07017 5.93021C9.24215 3.65665 9.24684 3.64108 9.71454 3.74113ZM3.47376 3.4754C3.54356 2.76171 3.54541 2.76035 4.25584 2.91336C5.03486 3.08108 5.10811 3.14844 4.76406 3.38119C4.60942 3.48576 4.29493 3.71411 4.06486 3.8889C3.54838 4.2814 3.40466 4.18079 3.47376 3.4754ZM3.50896 7.41345C3.59536 7.30475 4.29954 6.73525 5.07367 6.14781C5.8478 5.56037 6.53302 5.12222 6.59675 5.17416C6.66034 5.22598 6.66322 5.80374 6.60322 6.45836C6.50746 7.50289 6.43521 7.68178 6.01275 7.92319C5.74822 8.07444 5.10169 8.64231 4.57615 9.185C4.05062 9.72768 3.57067 10.131 3.50971 10.0814C3.33486 9.93885 3.33417 7.63329 3.50896 7.41345ZM3.54312 14.6252C3.49288 14.2732 3.4786 13.8411 3.51116 13.665C3.54523 13.4809 4.19347 12.7954 5.03506 12.0534C6.49458 10.7665 6.49949 10.764 6.4431 11.3394C6.36935 12.0937 5.71318 13.403 5.15832 13.9033C4.91686 14.1213 4.47502 14.5169 4.1768 14.7825L3.63437 15.2652L3.54312 14.6252ZM3.76346 19.0901C3.71949 18.5231 3.75569 18.471 4.9314 17.4012C5.59878 16.7941 6.20406 16.2917 6.27668 16.2848C6.34915 16.2778 6.42134 16.4894 6.43678 16.7549C6.46091 17.1687 6.31129 17.3963 5.38519 18.3537C4.02059 19.7642 3.82249 19.8542 3.76346 19.0901ZM4.39507 22.6558C4.65694 22.5277 5.15915 22.07 5.51083 21.6384C6.2075 20.7836 6.53692 20.7817 6.30001 21.6344C6.15459 22.1574 4.5062 24.2401 4.21574 24.2677C4.13561 24.2752 4.03602 23.968 3.99437 23.5849C3.92726 22.9677 3.97302 22.8618 4.39507 22.6558ZM4.36969 28.0058C4.36026 27.7676 4.66885 27.3028 5.31703 26.5802C5.84584 25.9906 6.32764 25.5481 6.38758 25.5969C6.44738 25.6456 6.51695 25.9519 6.54224 26.2773C6.58654 26.8522 6.56298 26.8861 5.72399 27.4662L5.54637 27.5891C4.74157 28.1462 4.49338 28.318 4.41315 28.2593C4.37737 28.2331 4.37498 28.1612 4.37152 28.0571L4.36969 28.0058Z"
+                                fill="white" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer section">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__column">
+                    <a href="#" class="footer__logo">
+                        <img src="assets/img/logo.svg" alt="Andy" width="35" height="35">
+                        <p>Andy</p>
+                    </a>
+                    <p>This membership will help you plan and execute a variety of projects.</p>
+                </div>
+                <div class="footer__column">
+                    <h3 class="footer__title">Home</h3>
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Product</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Pricing</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Business</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Enterprise</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Customer Success</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__column">
+                    <h3 class="footer__title">About Us</h3>
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Company</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Leadership</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Careers</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Diversity</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Sitemap</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__column">
+                    <h3 class="footer__title">Resources</h3>
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Company</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Leadership</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Careers</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Diversity</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Sitemap</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__column">
+                    <h3 class="footer__title">Tutorial</h3>
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">10 Leadership Styles</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Executive Summary Tips</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Prevent Team Burnout</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">What are OKRs?</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">See All Guides</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__copy">
+                <div class="footer__desc">
+                    <p>©2022 Made in uihut.com - Code for <a href="">Farid Moreno</a></p>
+                </div>
+                <div class="footer__social">
+                    <a href="#" class="footer__social--item">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                    </a>
+                    <a href="#" class="footer__social--item">
+                        <ion-icon name="logo-twitter"></ion-icon>
+                    </a>
+                    <a href="#" class="footer__social--item">
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                    </a>
+                </div>
+                <div class="footer__text">
+                    <p>Privacy Policy</p>
+                    <p>Terms and conditions</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- IonIcon -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <!-- Script Swiper JS -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+    <!-- Custom scripts -->
+    <script src="js/app.js"></script>
+</body>
+
+</html>
